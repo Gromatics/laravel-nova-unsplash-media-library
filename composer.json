@@ -1,0 +1,32 @@
+{
+    "name": "gromatics/laravel-nova-unsplash-media-library",
+    "description": "Search and add Unsplash images to media library in Laravel Nova",
+    "keywords": [
+        "laravel",
+        "nova",
+        "unsplash",
+        "media library",
+        "spatie"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gromatics\\LaravelNovaUnsplashMediaLibrary\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gromatics\\LaravelNovaUnsplashMediaLibrary\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
