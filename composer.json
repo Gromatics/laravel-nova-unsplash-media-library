@@ -15,6 +15,7 @@
     ],
     "license": "MIT",
     "require": {
+        "php": ">=8.0",
         "spatie/laravel-medialibrary": "^11.5"
     },
     "autoload": {
