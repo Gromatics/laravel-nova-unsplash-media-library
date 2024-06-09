@@ -2,6 +2,8 @@
 
 Laravel Nova Unsplash Media Library is a package that integrates Unsplash with Laravel Nova, enabling you to search and select images from Unsplash directly within your Nova resource. This package builds upon Spatie's Laravel Media Library for robust media handling.
 
+![Draggable](example.gif)
+
 ## Installation
 ### Step 1: Get an Unsplash API Key
 First, you need to obtain an Unsplash API key. Follow these steps:
