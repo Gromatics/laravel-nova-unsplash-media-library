@@ -19,13 +19,8 @@
             <span v-else> - </span>
 
             <div v-if="!this.field.unsplashClientId" class="text-red-500">
-                <strong>No Unsplash Client ID set</strong>
-                <br>- Add <small class="inline">
-                <pre class="inline">'unsplash_client_id' => env('UNSPLASH_CLIENT_ID')</pre>
-            </small> to config/services.php
-                <br>- Add <small class="inline">
-                <pre class="inline">UNSPLASH_CLIENT_ID={YOUR_CLIENT_ID}</pre>
-            </small> to .env
+                <strong>No Unsplash Client ID set</strong><br>
+                Add <small class="inline"><pre class="inline">UNSPLASH_CLIENT_ID={YOUR_CLIENT_ID}</pre></small> to .env
             </div>
 
             <div v-else class="flex items-center max-w-sm">

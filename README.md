@@ -11,11 +11,7 @@ First, you need to obtain an Unsplash API key. Follow these steps:
 3. Create a new application to get your API key.
 
 ### Step 2: Install Spatie Laravel Media Library
-Follow the installation and setup guide for [Spatie's Laravel Media Library](https://spatie.be/docs/laravel-medialibrary/v11/installation-setup). You can install it using Composer:
-
-```
-composer require spatie/laravel-medialibrary
-```
+Follow the installation and setup guide for [Spatie's Laravel Media Library](https://spatie.be/docs/laravel-medialibrary/v11/installation-setup). 
 
 ### Step 3: Install Laravel Nova Unsplash Media Library
 Install the Laravel Nova Unsplash Media Library package via Composer:
